@@ -1,0 +1,18 @@
+.select_dropdown {
+  display: none;
+  flex-direction: column;
+  background-color: var(--gray--f8);
+  position: absolute;
+  bottom: -120px;
+  width: 40%;
+  left: 0;
+}
+
+.item_dropdown:hover{
+    background-color: var(--green--52);
+    color: var(--gray--f8);
+}
+.select_dropdown.open{
+    display: flex;
+}
+
